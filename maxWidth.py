@@ -1,4 +1,4 @@
-def maxWidthOfVerticalArea(self, points: List[List[int]]) -> int:
+def maxWidthOfVerticalArea(points):
     x = [point[0] for point in points]
     x = list(set(x))
     x.sort()
