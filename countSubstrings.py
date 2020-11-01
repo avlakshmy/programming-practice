@@ -4,7 +4,7 @@ def differByOne(s1, s2):
         return True
     return False
     
-def countSubstrings(self, s: str, t: str) -> int:
+def countSubstrings(s, t):
     count = 0
     s1s = []
     s2s = []
