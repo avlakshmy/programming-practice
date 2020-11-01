@@ -1,4 +1,4 @@
-def kthSmallestPath(self, destination: List[int], k: int) -> str:
+def kthSmallestPath(destination, k):
     h = destination[1]
     v = destination[0]
 
