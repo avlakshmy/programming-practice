@@ -1,5 +1,5 @@
 import math
-def bestCoordinate(self, towers: List[List[int]], radius: int) -> List[int]:
+def bestCoordinate(towers, radius):
     xmin = min([tower[0] for tower in towers])
     xmax = max([tower[0] for tower in towers])
     ymin = min([tower[1] for tower in towers])
