@@ -1,2 +1,2 @@
 # programming-practice
-Programming practice from HackerRank, Google Kick Start, Geeks for Geeks, and other platforms
+Programming practice from HackerRank, LeetCode, Google Kick Start, Geeks for Geeks, and other platforms
