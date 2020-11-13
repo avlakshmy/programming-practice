@@ -2,7 +2,6 @@ def deleteDuplicates(head):
     if head == None or head.next == None:
         return head
     currValue = head.val
-    print(currValue)
     temp = head
     while temp.next:
         while temp.next and temp.next.val == currValue:
