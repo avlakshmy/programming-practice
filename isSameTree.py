@@ -3,4 +3,4 @@ def isSameTree(p, q):
         return True
     if p == None or q == None:
         return False
-    return (p.val == q.val) and self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right)
+    return (p.val == q.val) and isSameTree(p.left, q.left) and isSameTree(p.right, q.right)
