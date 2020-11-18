@@ -6,8 +6,7 @@ def minDistance(word1, word2):
         return 0
 
     score = [[0 for _ in range(N+1)] for _ in range(M+1)]
-    backPtr = [[-1 for _ in range(N+1)] for _ in range(M+1)]
-
+    
     for j in range(N+1):
         score[0][j] = j
 
